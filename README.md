@@ -2,7 +2,14 @@
 
 ever wanted to track what animu you watch in your 1337 hax0r terminal
 
-<insert graphic>
+## logo:
+		 ..
+	      .. ...
+    ..... .... ..  ..	.............
+   .	      .	     ..		     .
+   ..	 .. .. ......  ..	     .
+	    ..	.... ..... .. ...... .
+
 
 # expected features
 - get list of all series from online or locally in a text file
