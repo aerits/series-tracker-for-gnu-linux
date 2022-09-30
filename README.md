@@ -3,12 +3,16 @@
 ever wanted to track what animu you watch in your 1337 hax0r terminal
 
 ## logo:
+
+```
 		 ..
 	      .. ...
     ..... .... ..  ..	.............
    .	      .	     ..		     .
    ..	 .. .. ......  ..	     .
 	    ..	.... ..... .. ...... .
+
+```
 
 
 # expected features
