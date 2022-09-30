@@ -1,1 +1,1 @@
-# series-tracker-for-gnu-linux
+# series tracker for gnu linux
