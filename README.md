@@ -21,6 +21,6 @@ ever wanted to track what animu you watch in your 1337 hax0r terminal
 - reading "lists" like on novelupdates.com
 -
 
-# documentation
+# documentation:
 
 none found
