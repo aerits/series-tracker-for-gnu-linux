@@ -21,7 +21,7 @@ well ~~now~~ soon you can
 - get list of all series from online or locally in a text file
 - add what chapter/episode you are on
 - reading "lists" like on novelupdates.com
--
+- notify when new chapters / episodes come out?
 
 # documentation:
 
