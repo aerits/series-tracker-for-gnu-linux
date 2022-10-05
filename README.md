@@ -1,6 +1,7 @@
 # series tracker for gnu linux:
 
 ever wanted to track what animu you watch in your 1337 hax0r terminal
+
 well ~~now~~ soon you can
 
 ## logo:
