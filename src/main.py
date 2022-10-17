@@ -24,7 +24,7 @@ class HoverApp(App):
 
     async def on_mount(self) -> None:
         await self.view.dock(Hover(), edge="left", size=40)
-        await self.view.dock(Hover(), edge="top")
+        await self.view.dock(Hover(), Hover(), edge="top")
 
 
 HoverApp.run()
