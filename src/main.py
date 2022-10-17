@@ -6,7 +6,7 @@ from textual.widget import Widget
 
 # classes
 
-import sidebar
+import Sidebar
 
 sidebar = sidebar.Sidebar()
 
