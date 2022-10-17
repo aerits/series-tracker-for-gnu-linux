@@ -28,7 +28,7 @@ class main(App):
     """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
-        await self.view.dock(Hover(), edge="left", size=40)
+        await self.view.dock(sidebar(), edge="left", size=40)
         await self.view.dock(Hover(), Hover(), edge="top")
         
     async def on_load(self, event):
