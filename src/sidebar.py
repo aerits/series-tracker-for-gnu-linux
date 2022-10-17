@@ -1,4 +1,4 @@
-class Hover(Widget):
+class sidebar(Widget):
 
     mouse_over = Reactive(False)
 
