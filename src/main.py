@@ -1,6 +1,6 @@
 from rich.panel import Panel
 
-from textual.app import App
+from textual.app import App, ComposeResult
 from textual.reactive import Reactive
 from textual.widget import Widget
 
