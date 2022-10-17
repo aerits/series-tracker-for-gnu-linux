@@ -30,4 +30,4 @@ class main(App):
         await self.bind("q", "quit")
 
 
-main.run()
+main.run(textual.log)
