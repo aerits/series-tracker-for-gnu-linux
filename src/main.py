@@ -10,7 +10,6 @@ from Sidebar import Bar
 from Body import body
 
 class main(App):
-    """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
         await self.view.dock(Bar(), edge="left", size=40)
