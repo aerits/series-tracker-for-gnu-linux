@@ -9,4 +9,4 @@ class SimpleApp(App):
         await self.view.dock(Placeholder(), Placeholder(), edge="top")
 
 
-SimpleApp.run(log="textual.log")
+SimpleApp.run()
