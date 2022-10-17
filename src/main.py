@@ -7,6 +7,7 @@ from textual.widget import Widget
 # classes
 
 from Sidebar import Bar
+from Body import Body
 
 class main(App):
     """Demonstrates custom widgets"""
