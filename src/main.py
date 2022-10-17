@@ -8,7 +8,7 @@ from textual.widget import Widget
 
 import sidebar
 
-side = sidebar.Sidebar()
+sidebar = sidebar.Sidebar()
 
 class Hover(Widget):
 
