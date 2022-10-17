@@ -1,9 +1,10 @@
 from textual.app import App
 
 
-class Beeper(App):
-    def on_key(self):
-        self.console.bell()
+class ColorChanger(App):
+    def on_key(self, event):
+        if event.key.isdigit():
+            self.background = f"on color({event.key})"
 
 
-Beeper.run()
+ColorChanger.run(log="textual.log")
