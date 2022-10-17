@@ -8,7 +8,7 @@ from textual.widget import Widget
 
 import Sidebar
 
-sidebar = sidebar.Sidebar()
+object = Sidebar.Bar()
 
 class Hover(Widget):
 
@@ -28,7 +28,7 @@ class main(App):
     """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
-        await self.view.dock(side(), edge="left", size=40)
+        await self.view.dock(object(), edge="left", size=40)
         await self.view.dock(Hover(), Hover(), edge="top")
         
     async def on_load(self, event):
