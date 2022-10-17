@@ -19,7 +19,7 @@ class Hover(Widget):
         self.mouse_over = False
 
 
-class main():
+class main(App):
     """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
