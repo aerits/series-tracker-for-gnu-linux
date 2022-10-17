@@ -4,7 +4,7 @@ from textual.app import App
 from textual.reactive import Reactive
 from textual.widget import Widget
 
-class Body(Widget):
+class body(Widget):
 
     mouse_over = Reactive(False)
 
