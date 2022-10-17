@@ -4,6 +4,7 @@ from textual.app import App
 from textual.reactive import Reactive
 from textual.widget import Widget
 
+
 class Hover(Widget):
 
     mouse_over = Reactive(False)
@@ -18,11 +19,12 @@ class Hover(Widget):
         self.mouse_over = False
 
 
-class SimpleApp(App):
+class HoverApp(App):
+    """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
-        await self.view.dock(Placeholder(), edge="left", size=40)
-        await self.view.dock(Placeholder(), Placeholder(), edge="top")
+        hovers = (Hover() for _ in range(10))
+        await self.view.dock(*hovers, edge="top")
 
 
-SimpleApp.run()
+HoverApp.run()
