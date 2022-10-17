@@ -9,7 +9,7 @@ class Sidebar(Widget):
     mouse_over = Reactive(False)
 
     def render(self) -> Panel:
-        return Panel("Hello World")
+        return Panel("Sidebar")
 
     def on_enter(self) -> None:
         self.mouse_over = True
