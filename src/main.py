@@ -19,7 +19,7 @@ class Hover(Widget):
         self.mouse_over = False
 
 
-class HoverApp(App):
+class main():
     """Demonstrates custom widgets"""
 
     async def on_mount(self) -> None:
@@ -30,4 +30,4 @@ class HoverApp(App):
         await self.bind("q", "quit")
 
 
-HoverApp.run()
+main.run()
