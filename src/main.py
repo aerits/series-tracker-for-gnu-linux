@@ -14,7 +14,7 @@ class main(App):
 
     async def on_mount(self) -> None:
         await self.view.dock(Bar(), edge="left", size=40)
-        await self.view.dock(Hover(), Hover(), edge="top")
+        await self.view.dock(body(), body(), edge="top")
         
     async def on_load(self, event):
         await self.bind("q", "quit")
